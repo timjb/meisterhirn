@@ -1,0 +1,16 @@
+CACHE MANIFEST
+
+# Diese Zahl bitte bei jeder Änderung einer Datei hochzählen, das bewirkt, dass alle Dateien aktualisiert werden:
+# 18
+
+# Diese Dateien sollen für den Offline-Betrieb gespeichert werden:
+../index.html
+../lib/meisterhirn.js
+../lib/autosolver.js
+app.js
+style.css
+wood.jpg
+lobster.otf
+# Diese Datei funktioniert nicht mit einem Manifest, vielleicht wird Apple mal seine Font-Unterstützung verbessern, dann kann ich die nächste Zeile wieder einkommentieren:
+#fonts/lobster.svg
+http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png

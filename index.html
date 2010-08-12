@@ -1,0 +1,30 @@
+<!DOCTYPE html><!-- HTML5 -->
+<html manifest=assets/cache.manifest><!-- Manifest für Offlinebetrieb einbinden -->
+
+<head><!-- head-Bereich: Enthält Meta-Informationen -->
+<meta charset=utf-8><!-- Zeichensatz dieser Datei -->
+<title>Meisterhirn</title><!-- Titel des Dokuments -->
+<meta name=author content="Tim Baumann"><!-- unsichtbare Information: Autor -->
+<link rel=stylesheet href=assets/style.css><!-- CSS-Stylesheet einbinden -->
+<link rel="shortcut icon" href=assets/favicon.png><!-- Favicon (kleines Bildchen) -->
+
+<!-- Besonderheiten für iPhone und iPod touch: -->
+<link rel=apple-touch-icon href=assets/apple-touch-icon.png>
+<meta name=viewport content="width=device-width, user-scalable=no"><!-- kein Auszoomen, der Benutzer kann nicht mehr zoomen -->
+<meta name=apple-mobile-web-app-capable content=yes><!-- Fullscreen -->
+<link rel=apple-touch-startup-image href=assets/apple-touch-startup.png>
+
+<body><!-- der sichtbare Inhalt -->
+<!-- Diese GitHub-Ecke rechts oben: -->
+<a id=github href=http://github.com/timjb/meisterhirn/><!-- Link Anfang -->
+	<img src=http://s3.amazonaws.com/github/ribbons/forkme_right_darkblue_121621.png alt="Fork me on GitHub"><!-- Bild -->
+</a><!-- Link Ende -->
+<div id=wrapper><!-- Element, das andere umschließt => ist gut zum Styling mittels CSS -->
+	<h1>Meisterhirn</h1><!-- Überschrift -->
+	<div id=game></div><!-- in das Element links wird später das Spiel eingefügt -->
+	<div id=controls></div><!-- in das Element links werden später die Knöpfe zum automatischen Lösen eingefügt -->
+</div><!-- Ende "Element, das andere umschließt" -->
+
+<!-- JavaScript -->
+<script src=lib/meisterhirn.js></script>
+<script src=assets/app.js></script>
